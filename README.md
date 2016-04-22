@@ -65,7 +65,7 @@ NixOS applies this principle to the whole operating system, using the same
 Nix language to build a reproducible, immutable, fully specified OS.
 It manages system configuration, services, users, and much more, and given a
 configuration, always results in the same system, no matter where you start from.
-Not because it finds the difference and patches it, but because conceptually,
+Not because it finds the differences and patches them, but because conceptually,
 it always starts from scratch, with no assumptions and no influence of the past.
 
 NixOps in turn is a tool for deploying NixOS configurations on cloud servers.
@@ -74,14 +74,14 @@ of statelessness, purity, immutability and reproducibility to a cloud workflow,
 so you can run anything at scale.
 
 Hydra ties all this together by building nix packages and providing a binary
-cache, so you can download packages instead of build them for every install,
+cache, so you can download packages instead of building them for every install,
 
 Together, these tools allow you to run your whole software infrastructure:
 
 - develop in isolated, reproducible nix environments
 - automatically build, test, and publish packages with hydra and nix channels
 - fully and declaratively specify immutable, atomically upgradable servers with NixOS
-- provision and deploy servers and services on the cloud with NixOS
+- provision and deploy servers and services on the cloud with NixOps
 
 
 ### Package Management and Configuration with Nix
