@@ -108,7 +108,7 @@ Together, these tools allow you to run your whole software infrastructure:
 - provision and deploy servers and services on the cloud with NixOps
 
 
-### Package Management and Configuration with Nix
+### Manage and Configure Packages with Nix
 
 - Status: **complete**
 - Difficulty: **easy**
@@ -116,6 +116,8 @@ Together, these tools allow you to run your whole software infrastructure:
   - general package management - apt-get
   - mostly: language-specific package management: npm, pip, bundler, cabal
   - build tools: make, rake, setuptools, npm,
+
+[TODO]
 
 
 ### Develop, Build and Test Your Software with Nix
@@ -128,6 +130,8 @@ Together, these tools allow you to run your whole software infrastructure:
   - third-party package registries and repositories: npm, pypi,
   - build tools: make, rake, setuptools, npm,
 
+[TODO]
+
 
 ### Declare Your System with NixOS
 
@@ -138,8 +142,10 @@ Together, these tools allow you to run your whole software infrastructure:
   - package management
   - process management
 
+[TODO]
 
-### Run Your Software on NixOS with SystemD
+
+### Isolate Your Services with NixOS Containers
 
 - Staus: **complete**
 - Difficulty: **easy**
@@ -148,6 +154,12 @@ Together, these tools allow you to run your whole software infrastructure:
   - process management
   - language-specific "isolated" environments
   - third party registries and repositories
+  - containers: docker, rkt, vagga, lxc
+- Advantages:
+  - fast and small, uses shared Nix Store
+  - no need to ship container images around
+
+[TODO]
 
 
 ### Provision Cloud Servers with NixOps
@@ -158,6 +170,8 @@ Together, these tools allow you to run your whole software infrastructure:
   - configuration management: puppet, chef, ansible
   - deployment management: puppet master, chef, ansible
   - provisioning: terraform, ...
+
+[TODO]
 
 
 ### Automate Builds and Serve Packages with Hydra and Nix Channel
@@ -170,6 +184,8 @@ Together, these tools allow you to run your whole software infrastructure:
 - Advantage:
   - reproducible builds
   - cryptographically signed binary caches of source packages
+
+[TODO]
 
 
 
